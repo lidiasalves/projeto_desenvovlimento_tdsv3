@@ -15,14 +15,6 @@ Este projeto realiza a coleta e análise de dados históricos do Bitcoin (BTC) u
 - **Deploy**: GitHub
 
 
-## Estrutura do Projeto
-
-├── projeto_desenvovlimento_tdsv3/
-│   ├── bitcoin_analysis.py  # Script principal de coleta e análise
-│   ├── requirements.txt     # Lista de dependências
-│   ├── README.md            # Documentação do projeto
-
-
 ## Funcionalidades do Projeto
 
 - **Coleta de Dados**: Obtém informações sobre preço de fechamento e volume de negociação do Bitcoin nos últimos 100 dias.
@@ -35,11 +27,11 @@ Este projeto realiza a coleta e análise de dados históricos do Bitcoin (BTC) u
 
 Contribuições são bem-vindas! Para contribuir:
 
-Faça um fork do repositório
-Crie uma branch para sua funcionalidade (git checkout -b minha-feature)
-Faça o commit das suas alterações (git commit -m 'Adicionando nova feature')
-Faça um push para a branch (git push origin minha-feature)
-Abra um Pull Request 🚀
+- Faça um fork do repositório
+- Crie uma branch para sua funcionalidade (git checkout -b minha-feature)
+- Faça o commit das suas alterações (git commit -m 'Adicionando nova feature')
+- Faça um push para a branch (git push origin minha-feature)
+- Abra um Pull Request 🚀
 
 
 ## Licença
