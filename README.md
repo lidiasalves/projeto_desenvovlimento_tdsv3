@@ -1,38 +1,46 @@
 Título:
-# Análise de Dados de Cibersegurança
+# Projeto de Desenvolvimento - TDSV3
 
 ## Descrição do Projeto
 
-Este projeto tem como objetivo criar um dataframe para análise de dados de cibersegurança. Utilizando a linguagem Python e a biblioteca Pandas, o projeto visa fornecer respostas para os questionamentos* sobre os dados coletados, ajudando a identificar padrões e tendências em cibersegurança.
-
-*Questão 1: 
-
-*Questão 2:
-
-*Questão 3:
+Este projeto realiza a coleta e análise de dados históricos do Bitcoin (BTC) utilizando a API da OKX. Ele permite visualizar informações sobre preços e volumes de negociação de forma estruturada, facilitando análises financeiras e de mercado.
 
 
 ## Tecnologias Utilizadas
 
-- **Linguagem**: Python
-- **Biblioteca**: Pandas
-- **Deploy**: GitHub ou um site do projeto
+- **Linguagem**: Python 3
+- **Bibliotecas**: requests, pandas, matplotlib, datetime, pytz
+- **Fonte de Dados**: API da OKX
+- **IDE**: VS Code
+- **Deploy**: GitHub
+
 
 ## Estrutura do Projeto
 
-1. 23 e 24/01 **Coleta de Dados**: Coleta de dados de cibersegurança de diversas fontes.
-2. 30/01 **Processamento de Dados**: Limpeza e preparação dos dados utilizando a biblioteca Pandas.
-3. 31/01 **Análise de Dados**: Análise exploratória dos dados para identificar padrões e tendências.
-4. 03/02 **Visualização de Dados**: Criação de gráficos e visualizações para melhor compreensão dos dados.
-5. 10/02 **Deploy**: Publicação do projeto no GitHub para acesso e colaboração.
-6. 13/02 (Avaliação de Recuperação)
+├── projeto_desenvovlimento_tdsv3/
+│   ├── bitcoin_analysis.py  # Script principal de coleta e análise
+│   ├── requirements.txt     # Lista de dependências
+│   ├── README.md            # Documentação do projeto
 
-## Descrição do Projeto
-(A partir do tema escolhido, informar a situação problema e a base de dados)
 
+## Funcionalidades do Projeto
+
+- **Coleta de Dados**: Obtém informações sobre preço de fechamento e volume de negociação do Bitcoin nos últimos 100 dias.
+- **Processamento dos Dados**: Formata timestamps, converte valores e cria um DataFrame estruturado.
+- **Análise e Exibição**: Permite visualizar os primeiros registros, acessar linhas específicas, remover e adicionar registros.
+- **Gráficos**: Gera visualizações dos dados históricos coletados.
+
+  
 ## Contribuição
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias e novas funcionalidades.
+Contribuições são bem-vindas! Para contribuir:
+
+Faça um fork do repositório
+Crie uma branch para sua funcionalidade (git checkout -b minha-feature)
+Faça o commit das suas alterações (git commit -m 'Adicionando nova feature')
+Faça um push para a branch (git push origin minha-feature)
+Abra um Pull Request 🚀
+
 
 ## Licença
 
