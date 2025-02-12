@@ -1,4 +1,3 @@
-Título:
 # Projeto de Desenvolvimento - TDSV3
 
 ## Descrição do Projeto
